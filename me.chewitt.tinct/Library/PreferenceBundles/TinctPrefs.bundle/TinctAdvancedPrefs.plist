@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>For explanations of some of the above options, see the 'Help' section on the previous page.
+
+You will need to respring/restart apps for some of these changes to apply.</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.tinctprefs</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.tinctprefs.settingschanged</string>
+			<key>key</key>
+			<string>ncEnabled</string>
+			<key>label</key>
+			<string>Notification Centre</string>
+			<key>negate</key>
+			<true/>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.tinctprefs</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.tinctprefs.settingschanged</string>
+			<key>key</key>
+			<string>ccEnabled</string>
+			<key>label</key>
+			<string>Control Centre</string>
+			<key>negate</key>
+			<true/>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.tinctprefs</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.tinctprefs.settingschanged</string>
+			<key>key</key>
+			<string>HUDEnabled</string>
+			<key>label</key>
+			<string>HUD</string>
+			<key>negate</key>
+			<true/>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.tinctprefs</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.tinctprefs.settingschanged</string>
+			<key>key</key>
+			<string>kEnabled</string>
+			<key>label</key>
+			<string>Keyboard</string>
+			<key>negate</key>
+			<true/>
+		</dict>
+
+		<!--<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.tinctprefs</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.tinctprefs.settingschanged</string>
+			<key>key</key>
+			<string>asEnabled</string>
+			<key>label</key>
+			<string>Action Sheets</string>
+			<key>negate</key>
+			<true/>
+		</dict>-->
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.tinctprefs</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.tinctprefs.settingschanged</string>
+			<key>key</key>
+			<string>statusEnabled</string>
+			<key>label</key>
+			<string>Status Bar</string>
+			<key>negate</key>
+			<true/>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.tinctprefs</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.tinctprefs.settingschanged</string>
+			<key>key</key>
+			<string>spotEnabled</string>
+			<key>label</key>
+			<string>Spotlight</string>
+			<key>negate</key>
+			<true/>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.tinctprefs</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.tinctprefs.settingschanged</string>
+			<key>key</key>
+			<string>chromaForExcluded</string>
+			<key>label</key>
+			<string>Chroma for Excluded Apps</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.tinctprefs</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.tinctprefs.settingschanged</string>
+			<key>key</key>
+			<string>useAppleBlackBars</string>
+			<key>label</key>
+			<string>Use Apple's Black Blur</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>negate</key>
+			<true/>
+			<key>defaults</key>
+			<string>me.chewitt.tinctprefs</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.tinctprefs.settingschanged</string>
+			<key>key</key>
+			<string>translucencyEnabled</string>
+			<key>label</key>
+			<string>Translucent Bars</string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>Advanced Options</string>
+</dict>
+</plist>

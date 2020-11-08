@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Flipswitch</string>
+			<key>footerText</key>
+			<string>The flipswitch toggle will disable Tinct, but you will need to respring/restart apps for this change to properly apply.</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Chroma for Excluded Apps</string>
+			<key>footerText</key>
+			<string>This will enable the features of Chroma (replaces standard tints but does not customise nav bar background etc.) for any apps which are exluded in the 'Excluded Apps' list.</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Blended</string>
+			<key>footerText</key>
+			<string>This option is only available on devices which support blur and adds blending to all nav bar items (similar to labels in the default notification centre).</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Apple's Black Blur</string>
+			<key>footerText</key>
+			<string>This will use Apple's standard black blur view if you select #000000 for any blur view tint colour (e.g. nav bar background, control centre, HUD) - this provides a less opaque effect than Tinct's normal black tint colour.</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Status Bar</string>
+			<key>footerText</key>
+			<string>Disabling the 'Status Bar' option in advanced settings will use either black or white, rather than colouring the status bar to your title colour.</string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>Help</string>
+</dict>
+</plist>

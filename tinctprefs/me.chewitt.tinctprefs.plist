@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = TinctPrefs;
+	cell = PSLinkCell;
+	detail = TinctPrefsListController;
+	icon = "/Library/PreferenceBundles/TinctPrefs.bundle/icon.png";
+	isController = 1;
+	label = TinctPrefs;
+    };
+}

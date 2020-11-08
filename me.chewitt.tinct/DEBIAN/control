@@ -1,0 +1,12 @@
+Package: me.chewitt.tinct
+Name: Tinct
+Depends: mobilesubstrate, preferenceloader, firmware (>=7.0), applist
+Conflicts: me.chewitt.chroma
+Version: 1.4.1
+Architecture: iphoneos-arm
+Description: Simple, lightweight UI customisation.
+Maintainer: Charlie Hewitt <contact@chewitt.me>
+Author: Charlie Hewitt <contact@chewitt.me>
+Icon: file:///Library/PreferenceBundles/TinctPrefs.bundle/icon_large.png
+Section: Tweaks
+Depiction: http://chewitt.me/repo/depictions/tinct.html

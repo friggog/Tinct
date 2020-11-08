@@ -1,0 +1,8 @@
+#!/bin/sh
+
+mkdir /var/mobile/Library/Tinct
+mkdir /var/mobile/Library/Tinct/Themes
+chown mobile /var/mobile/Library/Tinct
+chown mobile /var/mobile/Library/Tinct/Themes
+
+exit 0
